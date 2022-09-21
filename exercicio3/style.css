@@ -3,23 +3,46 @@
   margin: 0;
 }
 header{
-  
+  font-family: Helvetica;
+  background-color: rgba(255, 166, 0, 0.658);
+  /* margin-left: 50px; */
+  padding: 30px;
+  border-radius: 2px;
 }
 
 section{
   float: left;
 /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
-  width: 840px;
+  width: 50%;
   padding: 40px;
+  font-family: Helvetica;
 }
 
 aside{
   float:right;
  /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
   padding: 20px;
-  width: 340px;
+  width: 35%;
+  font-family: Helvetica;
+  border: 2px solid rgba(255, 166, 0, 0.658);
+  margin-top: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgb(143, 142, 142);
 }
 
 article{
   margin: 10px 0;
+  font-family: Helvetica;
+}
+
+h3{
+  color: rgb(255, 153, 0);
+}
+h5{
+  color: rgb(121, 121, 121);
+}
+
+#titulo1{
+  font-size: 35px;
 }
